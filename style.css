@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url(hyouka.jpg);
+    background-image: url(images/hyouka.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     justify-content: center;

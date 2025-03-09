@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(hyouka.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'NinjaNaruto'; /* Replace with your font name */
+    src: url('fonts/NinjaNaruto.woff2') format('woff2'),
+         url('fonts/NinjaNaruto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font to your elements */
+h1{
+    font-family: 'NinjaNaruto', sans-serif;
+}
+
+h1{
+    color: rgb(92, 36, 41);
+    background-color: rgb(204, 236, 208);
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    border: 4px solid rgb(136, 247, 237);
+    border-radius: 14px;
+}
+.display{
+    color: rgb(167, 0, 0);
+    width: 220px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-radius: 12px;
+    background-color: rgb(243, 205, 243);
+
+}
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2px;
+}
+button{
+    background-color: rgb(199, 245, 237);
+    margin: 2px;
+    width: 55px;
+    height: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: hotpink;
+    border: 2px solid hotpink;
+    border-radius: 12px;
+
+}
+
+button:hover {
+    background-color: rgb(170, 220, 210);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(150, 200, 190);
+}
